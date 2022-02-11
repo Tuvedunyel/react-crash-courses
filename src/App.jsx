@@ -1,15 +1,11 @@
-import { useState } from "react";
-
+import Todo from "./components/Todo";
 function App() {
   return (
     <>
       <h1>My Todos</h1>
-      <article className='card'>
-        <h2>Title</h2>
-        <div>
-          <button>Delete</button>
-        </div>
-      </article>
+      <Todo title='Learn React' />
+      <Todo title='Master React' />
+      <Todo title='Explore the full React Course' />
     </>
   );
 }
