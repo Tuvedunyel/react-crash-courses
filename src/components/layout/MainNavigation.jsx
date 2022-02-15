@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 
+import {classes} from './MainNavigation.module'
+
 function MainNavigation () {
     return (
-      <header>
+      <header className={classes.header}>
         <h1>React Mettups</h1>
         <nav>
           <ul>
